@@ -79,11 +79,13 @@
 }
 
 .link{
+    color: #000000;
     cursor: pointer;
     text-decoration: underline;
 }
 
 .link:hover{
+    color: #000000;
     font-weight:600;
 }
 

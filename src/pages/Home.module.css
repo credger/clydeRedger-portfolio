@@ -73,7 +73,8 @@
 
 @media(max-width: 400px){
     .homeContent{
-        width: var(--mobile-width)
+        width: var(--mobile-width);
+        grid-template-rows: 0.5fr auto 1.5fr;
     }
 }
     

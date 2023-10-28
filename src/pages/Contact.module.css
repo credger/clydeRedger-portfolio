@@ -23,5 +23,6 @@
 
     .contactContent{
         width: calc(100% - 48px);
+        grid-template-rows: 0.5fr auto 1.5fr;
     }
 }
