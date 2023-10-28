@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #2A3E86;
+  font-family: 'Noto Sans', sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  min-width: 300px;
+
+  --desktop-width: calc(100% - 128px);
+  --mobile-width: calc(100% - 48px);
+  --background-color: #2A3E86;
+  --text-color: #FFFFFF;
+}
+
+p, h1, h2, h3{
+  margin: 0;
+}
+
+.marginBottom24px{
+  margin-bottom: 24px;
+}
+
+.marginBottom16px{
+  margin-bottom: 16px;
+}
+
+.marginLeft2px{
+  margin-left: 2px;
+}

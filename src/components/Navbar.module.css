@@ -1,0 +1,109 @@
+.navbar{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 128px);
+    margin: auto;
+}
+
+
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hurricane', cursive;
+    font-size: 48px;
+    color: white;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.logoText{
+    width:fit-content;
+    margin-right: 8px;
+}
+
+.menu{
+    width: calc(100% - 120px);
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: white;
+}
+
+.menuLink:hover{
+    text-decoration: underline;
+}
+
+.menuLinke:visited{
+    color: white;
+}
+
+.icon{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+@media(max-width: 1000px){
+    .menu{
+        font-size: 24px;
+    }
+}
+
+.iconLink{
+    display: none;
+}
+
+
+@media(max-width: 800px){
+
+    .iconLink{
+        display: unset;
+    }
+
+    .icon{
+        height: 40px;
+        width: auto;
+        cursor: pointer;
+        display: unset;
+        grid-area: icon;
+        justify-self: right;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+ 
+
+@media(max-width: 400px){
+    .navbar{
+        width: calc(100% - 48px);
+    }
+}
+
