@@ -37,6 +37,7 @@
     align-items: center;
     text-decoration: none;
     align-self:end;
+    line-height: 18px;
     margin: 32px 24px 24px 0px;
 
 }
@@ -55,7 +56,8 @@
 }
 
 .arrow{
-    margin-left: 24px;
+    margin-left: 20px;
+    margin-top: 4px;
 }
 
 

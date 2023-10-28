@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <a href={resume} className={styles.arrowLink}>
               <p>View Resume</p>
-              <img src={rightArrowWhite} height='14' width='42' alt='right-arrow' className={styles.arrow} />
+              <img src={rightArrowWhite} height='14' width='44' alt='right-arrow' className={styles.arrow} />
             </a>
           </div>
           <div className={`${styles.box} ${styles.box2}`}>
@@ -33,8 +33,8 @@ const About = () => {
               with Node.js and Express.
             </p>
             <Link to='../projects' className={styles.arrowLink}>
-              <p className={styles.text}>View Projects</p>
-              <img src={rightArrowWhite} height='14' width='42' alt='right-arrow' className={styles.arrow} />
+              <p>View Projects</p>
+              <img src={rightArrowWhite} height='14' width='44' alt='right-arrow' className={styles.arrow} />
             </Link>
           </div>
           <div className={`${styles.box} ${styles.box3}`}>
@@ -44,7 +44,7 @@ const About = () => {
             </p>
             <Link to='../contact' className={styles.arrowLink}>
               <p>Contact</p> 
-              <img src={rightArrowWhite} height='14' width='42' alt='right-arrow' className={styles.arrow} />
+              <img src={rightArrowWhite} height='14' width='44' alt='right-arrow' className={styles.arrow} />
             </Link>
           </div>
 
