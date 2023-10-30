@@ -4,6 +4,7 @@ import styles from './About.module.css'
 import rightArrowWhite from '../assets/right-arrow-white.svg'
 import resume from '../../public/clyde-redger-resume.pdf'
 import { Link } from 'react-router-dom'
+import ScrollToTop from '../components/ScrollToTop'
 
 
 
@@ -11,6 +12,7 @@ const About = () => {
 
   return (
       <div>
+        <ScrollToTop />
         <Navbar />
         <div className={styles.aboutContent}>
           <div className={`${styles.box} ${styles.box1}`}>

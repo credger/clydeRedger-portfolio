@@ -4,10 +4,12 @@ import styles from './Projects.module.css'
 import invoiceApp from '../assets/invoice-app.webp'
 import photosnap from '../assets/photosnap.webp'
 import canvasAnimation from '../assets/canvas-animation.webp'
+import ScrollToTop from '../components/ScrollToTop'
 
 const Projects = () => {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <div className={styles.cards}>
           <div className={styles.box}>
