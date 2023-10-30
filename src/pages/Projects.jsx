@@ -65,8 +65,8 @@ const Projects = () => {
                 </p>
               </div>
               <div className={styles.linkContainer}>
-                <a href='https://credger.github.io/creativeBrandDesign-heroClone/' className={styles.link}>View Site</a>
-                <a href='https://github.com/credger/creativeBrandDesign-heroClone' className={styles.link}>View Code</a>
+                <a href='https://credger.github.io/creativeBrandDesign-hero/' className={styles.link}>View Site</a>
+                <a href='https://github.com/credger/creativeBrandDesign-hero' className={styles.link}>View Code</a>
               </div>
             </div>
           </div>
