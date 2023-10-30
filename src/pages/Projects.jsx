@@ -53,7 +53,7 @@ const Projects = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.imageContainer}>
-            <a href='https://credger.github.io/creativeBrandDesign-heroClone/'  className={styles.imageLink}>
+            <a href='https://credger.github.io/creativeBrandDesign-hero/'  className={styles.imageLink}>
                 <img src={canvasAnimation} width='4' height='3' className={styles.screenshot} />
               </a>
             </div>
